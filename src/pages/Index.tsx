@@ -1,4 +1,4 @@
-import { AlertTriangle } from "lucide-react";
+import { AlertTriangle, MessageSquare } from "lucide-react";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
@@ -43,12 +43,10 @@ const Index = () => {
           </div>
         </CardContent>
         
-        <CardFooter className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <CardFooter className="flex justify-center">
           <Button variant="outline" onClick={handleWhatsAppSupport}>
-            Hubungi Support (WhatsApp)
-          </Button>
-          <Button>
-            Cek Status Platform
+            <MessageSquare className="mr-2" />
+            Hubungi Support
           </Button>
         </CardFooter>
       </Card>
