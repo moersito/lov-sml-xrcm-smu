@@ -7,7 +7,12 @@ const Index = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 p-4">
       <Card className="max-w-3xl w-full shadow-lg">
-        <CardHeader className="text-center space-y-2">
+        <CardHeader className="text-center space-y-4">
+          <img 
+            src="https://e-katalog.lkpp.go.id/katalog/produk/download/gambar/963969311?file_name=5684291858671581.png&v=3&file_sub_location=produk_gambar%2F2023%2F07%2F13"
+            alt="XORCA Logo"
+            className="h-16 mx-auto object-contain"
+          />
           <div className="mx-auto bg-red-100 p-3 rounded-full">
             <AlertTriangle className="w-12 h-12 text-red-600" />
           </div>
