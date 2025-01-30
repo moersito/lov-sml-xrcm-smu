@@ -23,18 +23,18 @@ const Index = () => {
         <CardContent className="space-y-6">
           <Alert className="bg-amber-50 border-amber-200">
             <AlertDescription className="text-amber-900">
-              Mohon maaf atas ketidaknyamanannya. Platform XORCA RCM saat ini sedang dalam status suspended.
+              Mohon maaf, akses ke platform XORCA RCM telah dihentikan karena masa Proof of Concept (POC) telah berakhir.
             </AlertDescription>
           </Alert>
           
           <div className="space-y-4 text-gray-600">
             <p>
-              Kami ingin menginformasikan bahwa platform XORCA RCM sedang dalam status suspended untuk sementara waktu. 
-              Tim kami sedang bekerja keras untuk menyelesaikan situasi ini secepat mungkin.
+              Kami ingin menginformasikan bahwa periode Proof of Concept (POC) untuk platform XORCA RCM telah selesai. 
+              Sebagai konsekuensinya, akses ke platform saat ini telah dinonaktifkan.
             </p>
             <p>
-              Selama masa suspensi ini, semua layanan dan akses ke platform tidak akan tersedia. 
-              Kami akan memberikan informasi lebih lanjut segera setelah platform kembali beroperasi.
+              Untuk melanjutkan penggunaan platform XORCA RCM, silakan hubungi tim kami untuk mendiskusikan 
+              kelanjutan kerjasama dan peningkatan ke versi production.
             </p>
           </div>
         </CardContent>
