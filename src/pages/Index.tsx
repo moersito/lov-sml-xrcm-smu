@@ -4,6 +4,10 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
+  const handleWhatsAppSupport = () => {
+    window.open('https://wa.me/6281233393913', '_blank');
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 p-4">
       <Card className="max-w-3xl w-full shadow-lg">
@@ -20,7 +24,7 @@ const Index = () => {
           <p className="text-gray-500 text-lg">XORCA RCM Platform</p>
         </CardHeader>
         
-        <CardContent className="space-y-6">
+        <CardContent className="space-y-6 text-center">
           <Alert className="bg-amber-50 border-amber-200">
             <AlertDescription className="text-amber-900">
               Mohon maaf, akses ke platform XORCA RCM telah dihentikan karena masa Proof of Concept (POC) telah berakhir.
@@ -40,8 +44,8 @@ const Index = () => {
         </CardContent>
         
         <CardFooter className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
-          <Button variant="outline">
-            Hubungi Support
+          <Button variant="outline" onClick={handleWhatsAppSupport}>
+            Hubungi Support (WhatsApp)
           </Button>
           <Button>
             Cek Status Platform
